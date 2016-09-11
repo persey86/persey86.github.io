@@ -4,37 +4,60 @@ html {
     position: relative;
     min-height: 100%;
 }
+
+
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
 }
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -1%;
+    margin-left: 8%;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     /* Set the fixed height of the footer here */
     height: 60px;
     background-color: #f5f5f5;
 }
 
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-    padding: 60px 15px 0;
-}
-.container .text-muted {
-    margin: 20px 0;
-}
-
-.footer > .container {
-    padding-right: 15px;
-    padding-left: 15px;
+/* -------- TABLE -------- */
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: black;
+    border-top: 12px solid inherit;
+    border-bottom: 1px solid #fff;
+    color: aliceblue;
+    padding: 8px;
+    empty-cells: hide;
 }
 
-code {
-    font-size: 80%;
+table {
+    font-family: Arial;
+    font-size: 10px;
+    background: white;
+    max-width: 100%;
+    width: inherit;
+    margin-top: 0.1px;
+    border-collapse: collapse;
+    text-align: justify;
 }
+td {
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: black;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+
+
 
