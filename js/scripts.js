@@ -26,7 +26,7 @@ $(function(){
                 width = carousel.innerWidth();
 
             if (width >= 600) {
-                width = width / 3;
+                width = width / 6;
             } else if (width >= 350) {
                 width = width / 2;
             }
