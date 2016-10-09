@@ -15,9 +15,7 @@ body {
 .container {
     width: 100%;
     max-width: 100%;
-    margin-top: -1%;
-    margin-left: 8%;
-}
+    margin-top: -1%;}
 
 .footer {
     position: absolute;
@@ -100,7 +98,7 @@ p {
 .button {
     text-decoration: none;
     text-align: center;
-    padding: 4px 24px;
+    padding: 2px 24px;
     border: solid 1px #0c0d0d;
 
     font: 24px "Courier New", Courier, monospace;
@@ -290,3 +288,16 @@ p {
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
 }
+
+.carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+
+
+       
+
+        .left {
+            padding-left: 15px;
+        }
